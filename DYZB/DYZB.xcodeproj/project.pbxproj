@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		67F63C3F1F30754B0012B7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F63C3E1F30754B0012B7F2 /* AppDelegate.swift */; };
-		67F63C411F30754B0012B7F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F63C401F30754B0012B7F2 /* ViewController.swift */; };
 		67F63C441F30754B0012B7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F63C421F30754B0012B7F2 /* Main.storyboard */; };
 		67F63C461F30754B0012B7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F63C451F30754B0012B7F2 /* Assets.xcassets */; };
 		67F63C491F30754B0012B7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F63C471F30754B0012B7F2 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		67F63C3B1F30754B0012B7F2 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F63C3E1F30754B0012B7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67F63C401F30754B0012B7F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67F63C431F30754B0012B7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67F63C451F30754B0012B7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67F63C481F30754B0012B7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		67F63C3D1F30754B0012B7F2 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				67F63C6C1F3076ED0012B7F2 /* Classes */,
 				67F63C3E1F30754B0012B7F2 /* AppDelegate.swift */,
-				67F63C401F30754B0012B7F2 /* ViewController.swift */,
 				67F63C421F30754B0012B7F2 /* Main.storyboard */,
 				67F63C451F30754B0012B7F2 /* Assets.xcassets */,
 				67F63C471F30754B0012B7F2 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				67F63C601F30754B0012B7F2 /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		67F63C6C1F3076ED0012B7F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67F63C701F3076ED0012B7F2 /* Main */,
+				67F63C6E1F3076ED0012B7F2 /* Home */,
+				67F63C6F1F3076ED0012B7F2 /* Live */,
+				67F63C6D1F3076ED0012B7F2 /* Follow */,
+				67F63C711F3076ED0012B7F2 /* Profile */,
+				67F63C721F3076ED0012B7F2 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		67F63C6D1F3076ED0012B7F2 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		67F63C6E1F3076ED0012B7F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		67F63C6F1F3076ED0012B7F2 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		67F63C701F3076ED0012B7F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		67F63C711F3076ED0012B7F2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		67F63C721F3076ED0012B7F2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F63C411F30754B0012B7F2 /* ViewController.swift in Sources */,
 				67F63C3F1F30754B0012B7F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +563,7 @@
 				67F63C651F30754B0012B7F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67F63C661F30754B0012B7F2 /* Build configuration list for PBXNativeTarget "DYZBTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +572,7 @@
 				67F63C681F30754B0012B7F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67F63C691F30754B0012B7F2 /* Build configuration list for PBXNativeTarget "DYZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +581,7 @@
 				67F63C6B1F30754B0012B7F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
